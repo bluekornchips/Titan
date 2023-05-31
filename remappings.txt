@@ -1,13 +1,13 @@
-aave-v3-core/=lib/aave-v3-core/
+aave-v3-core/=forge/lib/aave-v3-core/
 
-openzeppelin-contracts/=lib/openzeppelin-contracts/
-@openzeppelin/=lib/openzeppelin-contracts/
+openzeppelin-contracts/=forge/lib/openzeppelin-contracts/
+@openzeppelin/=forge/lib/openzeppelin-contracts/
 
-uniswap/=lib/uniswap/
-@uniswap/=lib/uniswap/
+uniswap/=forge/lib/uniswap/
+@uniswap/=forge/lib/uniswap/
 
-Lily/=src/Lily/
-test-helpers/=test/helpers/
-misc/=src/misc/
-ethernaut/=src/ethernaut/
-mev/=src/mev/
+Lily/=forge/src/Lily/
+test-helpers/=forge/test/helpers/
+misc/=forge/src/misc/
+ethernaut/=forge/src/ethernaut/
+mev/=forge/src/mev/
