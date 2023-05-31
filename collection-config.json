@@ -1,0 +1,43 @@
+{
+   "Lily": {
+      "ERC": {
+         "ERC721": {
+            "LilyERC721": {
+               "name": "LilyERC721",
+               "validForSale": true,
+               "cargs": {
+                  "name": "LilyERC721",
+                  "symbol": "LERC721",
+                  "max_supply": 10000,
+                  "uri": "https://sunflowersoftware.com/api/"
+               },
+               "publicMintEnabled": true,
+               "burnEnabled": false
+            }
+         },
+         "ERC20": {
+            "LilyERC20": {
+               "cargs": {
+                  "name": "LilyERC20",
+                  "symbol": "CERC20",
+                  "initial_supply": 1000,
+                  "cap": 1000000000
+               }
+            },
+            "Utils": {
+               "LilyERC20Airdrop": {
+                  "name": "LilyERC20Airdrop"
+               }
+            }
+         }
+      },
+      "Marketplace": {
+         "Escrow": {
+            "name": "EscrowERC721"
+         },
+         "Offers": {
+            "name": "OffersERC721"
+         }
+      }
+   }
+}

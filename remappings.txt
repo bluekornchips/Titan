@@ -1,0 +1,13 @@
+aave-v3-core/=lib/aave-v3-core/
+
+openzeppelin-contracts/=lib/openzeppelin-contracts/
+@openzeppelin/=lib/openzeppelin-contracts/
+
+uniswap/=lib/uniswap/
+@uniswap/=lib/uniswap/
+
+Lily/=src/Lily/
+test-helpers/=test/helpers/
+misc/=src/misc/
+ethernaut/=src/ethernaut/
+mev/=src/mev/

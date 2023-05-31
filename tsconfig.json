@@ -1,0 +1,26 @@
+{
+   "ts-node": {
+      "require": ["tsconfig-paths/register"]
+   },
+   "compilerOptions": {
+      "baseUrl": "./titan",
+      "target": "ES2022",
+      "lib": ["es6", "dom", "es2017", "esnext.asynciterable"],
+      "allowSyntheticDefaultImports": true,
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "moduleResolution": "node",
+      "module": "commonjs",
+      "sourceMap": true,
+      "noImplicitAny": false,
+      "isolatedModules": true,
+      "allowJs": true,
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+      "paths": {
+         "forge/*": ["./*"]
+      }
+   },
+   "include": ["./**/*", "./test/**/*"],
+   "exclude": ["node_modules", "lib"]
+}

@@ -1,0 +1,26 @@
+[profile.default]
+src = 'src'
+out = 'out'
+libs = ['lib']
+gas_reports = [
+    "LilyERC721", "LilyERC721Airdroppable",
+    "LilyERC20", "LilyERC20Airdrop",
+    "OffersERC721", "EscrowERC721", 
+    ]
+
+
+[rpc_endpoints]
+# Test Nets
+garden = '{GARDEN_RPC}'
+mumbai = '{MUMBAI_RPC}'
+sepolia = '{SEPLOIA_RPC}'
+
+# Main Nets
+mainnet = '{MAINNET_RPC}'
+polygon = '{POLYGON_RPC}'
+
+[etherscan]
+
+# See more config options https://github.com/foundry-rs/foundry/tree/master/config
+
+# forge test --match-path test/mev/FlashDance.t.sol --rpc-url mainnet -vvvv

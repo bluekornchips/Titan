@@ -1,0 +1,36 @@
+{
+   "name": "titan",
+   "version": "1.0.0",
+   "description": "A Solidity contract development, audit, and deployment suite of tools.",
+   "scripts": {
+      "deploy": "npx ts-node titan/engine/main.ts",
+      "prisma": "npx ts-node titan/prisma/scripts/index.ts",
+      "docker": "docker run --rm -it -v ${PWD}:/my_local trailofbits/eth-security-toolbox",
+      "remixd": "remixd -s ./src/Lily/ERC/ERC721 -u https://remix.ethereum.org  --read-only"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/bluekornchips/Titan.git"
+   },
+   "keywords": [],
+   "author": "bluekornchips",
+   "license": "ISC",
+   "bugs": {
+      "url": "https://github.com/bluekornchips/Titan/issues"
+   },
+   "homepage": "https://github.com/bluekornchips/Titan#readme",
+   "dependencies": {
+      "@prisma/client": "^4.9.0",
+      "@types/node": "^18.15.10",
+      "@types/yargs": "^17.0.23",
+      "dotenv": "^16.0.3",
+      "ethers": "^6.2.2",
+      "papaparse": "^5.4.1",
+      "prisma": "^4.9.0",
+      "yargs": "^17.7.1",
+      "yarn": "^1.22.19"
+   },
+   "devDependencies": {
+      "tsconfig-paths": "^4.2.0"
+   }
+}
