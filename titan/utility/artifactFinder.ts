@@ -9,7 +9,7 @@ import projectDirectory from "./projectDirectory";
  */
 const artifact_finder = (contract_name: string, extra_path: string = ""): any => {
     try {
-        const foundry_artifact = require(`${projectDirectory()}out/${extra_path}${contract_name}.sol/${contract_name}.json`);
+        const foundry_artifact = require(`${projectDirectory()}forge/out/${extra_path}${contract_name}.sol/${contract_name}.json`);
         return foundry_artifact;
     } catch (error: any) {
         Ducky.Critical(__filename, "artifact_finder", `Could not find artifact for ${contract_name} contract`);
